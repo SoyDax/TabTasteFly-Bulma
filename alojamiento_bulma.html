@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabTasteFly</title>
+  <!-- ccs del mapa tabasco -->
+  <link href="css/estilomapa.css" rel="stylesheet">
+  <!-- CSS Bulma -->
+  <link rel="stylesheet" href="./bulma/css/bulma.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+<!-- CDN Font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+<!-- CSS Main -->
+<link rel="stylesheet" href="./css/main.css" />
+<script async type="text/javascript" src="/BulmaJS-0.12.2/dist/bulma.js"></script>
+</head>
+
+<body>
+  <!-- SECCION DE TODO EL NAVBAR CON BULMA -->
+  <!-- imagen fondo -->
+  <section class="hero header is-fullheight vh-50">
+    <div class="hero-head">
+      <!-- navbar-->
+      <nav class="navbar pt-4">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html" class="logo-link">
+              <img src="/img/logo.png" alt="Logo" style="width: 75px; height: 75px;">
+            </a>
+            <!-- 3 lineas para cel -->
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu navsize">
+            <div class="navbar-end">
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="index.html" alt="Gastronomía">
+                  GASTRONOMIA
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="#municipios" alt="Municipios">
+                  MUNICIPIOS
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="eventos_bulma.html" alt="Eventos">
+                  EVENTOS
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="alojamiento_bulma.html" alt="Alojamiento">
+                  ALOJAMIENTO
+                </a>
+              </span>
+              </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Descripcionnn-->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-6 is-offset-3">
+          <h1 class="title has-text-warning">
+            TabTasteFly
+          </h1>
+          <h2 class="resaltado subtitle">
+            “La única forma de hacer un gran trabajo es amar lo que haces.”
+          </h2>
+
+        </div>
+      </div>
+    </div>
+    <!-- corte svg -->
+    <img src="./img/cuts/cut-header.svg" alt="">
+  </section>
+  <!-- SECCION DE TODO EL NAVBAR CON BULMA -->
+
+  <!-- DESTACADOS ALOJAMIENTO -->
+  <section id="alojamiento" class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-8">
+          <h2 class="title is-3 has-text-warning is-uppercase">Donde Puedes Hospedarte</h2>
+        </div>
+        <div class="column is-4">
+          <div class="field is-grouped">
+            <p class="control">
+              <span>Selecciona tu ubicación:</span>
+              <a href="#" class="button is-warning">Villahermosa</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- Hotel Cards -->
+    <div class="columns is-multiline">
+      <!-- Card 1 -->
+      <div class="column is-12 animate-fade">
+        <div class="card hotel-card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <figure class="image is-4by3">
+                  <img src="./img/imagenes_hoteles/hotel1.png" alt="imagen del hotel 1">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p class="title is-4 title-rounded-background">Hotel & Suites Real del Lago</p>
+                <p>El Hotel & Suites Real del Lago ofrece conexión Wi-Fi gratuita, habitaciones con aire acondicionado y una piscina en la azotea con vistas panorámicas a Villahermosa y la laguna Las Ilusiones.</p>
+                <p class="subtitle is-6 has-text-grey">Sindicato de Salubridad, 209. Colonia Lopez Mateos, 86040 Villahermosa, México.   99038302934</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="column is-12 animate-fade">
+        <div class="card hotel-card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <figure class="image is-4by3">
+                  <img src="./img/imagenes_hoteles/hotel2.png" alt="imagen del hotel 2">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p class="title is-4 title-rounded-background">Sleep Inn Villahermosa</p>
+                <p>El Sleep Inn Villahermosa se encuentra en Villahermosa, a 3,5 km del parque Museo La Venta, y ofrece alojamiento con centro de fitness, aparcamiento privado gratuito y terraza. Hay recepción 24 horas, centro de negocios y servicio de organización de excursiones.</p>
+                <p class="subtitle is-6 has-text-grey">Av Jose Maria Pino Suarez 216, 86029 Villahermosa, México.   329042034</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="column is-12 animate-fade">
+        <div class="card hotel-card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <figure class="image is-4by3">
+                  <img src="./img/imagenes_hoteles/hotel3.png" alt="imagen del hotel 3">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p class="title is-4 title-rounded-background">Motel Bayona</p>
+                <p>Cama king size, aire acondicionado, televisión con cable, sala de estar, sillón, tina de hidromasaje, baño privado con regadera y agua caliente.</p>
+                <p class="subtitle is-6 has-text-grey">Boulevard Adolfo Ruiz Cortines No. 2211, Colonia Atasta, Villahermosa, Tabasco, México.    98982839</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="column is-12 animate-fade">
+        <div class="card hotel-card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <figure class="image is-4by3">
+                  <img src="./img/imagenes_hoteles/hotel4.png" alt="imagen del hotel 4">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p class="title is-4 title-rounded-background">Banana Motel</p>
+                <p>Cama king size, aire acondicionado, televisión con cable, sillón, tina de hidromasaje, columpio, baño privado con regadera y agua caliente.</p>
+                <p class="subtitle is-6 has-text-grey">Carretera a la Isla, Colonia Miguel Hidalgo, Villahermosa, Tabasco, México.  89483958439</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="column is-12 animate-fade">
+        <div class="card hotel-card">
+          <div class="card-content">
+            <div class="columns is-vcentered">
+              <div class="column is-4">
+                <figure class="image is-4by3">
+                  <img src="./img/imagenes_hoteles/hotel5.png" alt="imagen del hotel 5">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p class="title is-4 title-rounded-background">INSTITUTO TECNOLÓGICO DE VILLAHERMOSA</p>
+                <p>El Instituto Tecnológico de Villahermosa es una universidad pública mexicana ubicada en Villahermosa, Tabasco, en el Golfo de México.</p>
+                <p class="subtitle is-6 has-text-grey">Cd Industrial, ITVH, Edificio de Vinculación planta alta, 86010 Villahermosa, Tab.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- footer -->
+  <footer class="has-background-dark has-text-white py-4">
+    <div class="container">
+      <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center my-6">
+        <!-- REDES SOCIALES -->
+        <div class="is-flex is-justify-content-center mt-4">
+          <div class="ml-2 is-flex">
+            <a href="index.html">
+              <img src="./img/logotab.png" alt="" class="image is-64x64 mr-2">
+            </a>
+          </div>
+        </div>
+        <div class="is-flex is-align-items-center">
+          <a href="#">
+            <h3 class="has-text-weight-bold has-text-uppercase">Quienes somos</h3>
+          </a>
+        </div>
+        <div class="is-flex is-justify-content-center mt-4">
+          <div class="ml-2 is-flex">
+            <a href="#" class="icon has-text-white">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="ml-2 is-flex">
+            <a href="#" class="icon has-text-white">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="ml-2 is-flex">
+            <a href="#" class="icon has-text-white">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- script del mapa -->
+  <script>
+    function hoverPath(path) {
+      path.classList.add('path-hovered');
+    }
+
+    function unhoverPath(path) {
+      path.classList.remove('path-hovered');
+    }
+  </script>
+  <!-- FAncybox, para galería de imágenes -->
+  <link rel="stylesheet" href="./img/fancybox-master/dist/jquery.fancybox.min.css" />
+  <script src="./img/fancybox-master/dist/jquery.fancybox.min.js"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.4/umd/popper.min.js"></script>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bulma@0.9.2/js/bootstrap.min.js"></script>
+  <!-- script de animaciones de las tarjetas -->
+  <script src="./js/animations.js"></script>
+  <!-- script de inicialización de Fancybox -->
+  <script>
+    $(document).ready(function () {
+      $("[data-fancybox]").fancybox({
+        type: 'image',
+        selector: '.fancybox',
+        // otras opciones de Fancybox
+      });
+    });
+  </script>
+</body>
+
+</html>

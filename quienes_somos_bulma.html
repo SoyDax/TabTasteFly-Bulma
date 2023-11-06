@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TabTasteFly</title>
+  <!-- ccs del mapa tabasco -->
+  <link href="css/estilomapa.css" rel="stylesheet">
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!-- CSS BULMA -->
+  <link rel="stylesheet" href="./bulma/css/bulma.min.css" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+  <!-- CDN Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- CSS Main -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <script async type="text/javascript" src="/BulmaJS-0.12.2/dist/bulma.js"></script>
+</head>
+
+<body>
+  <!-- SECCION DE TODO EL NAVBAR CON BULMA -->
+  <!-- imagen fondo -->
+  <section class="hero header is-fullheight vh-50">
+    <div class="hero-head">
+      <!-- navbar-->
+      <nav class="navbar pt-4">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html" class="logo-link">
+              <img src="/img/logo.png" alt="Logo" style="width: 75px; height: 75px;">
+            </a>
+            <!-- 3 lineas para cel -->
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu navsize">
+            <div class="navbar-end">
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="index.html" alt="Gastronomía">
+                  GASTRONOMIA
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="municipios.html" alt="Municipios">
+                  MUNICIPIOS
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="eventos_bulma.html" alt="Eventos">
+                  EVENTOS
+                </a>
+              </span>
+              <span class="navbar-item is is-white">
+                <a class="has-text-white" href="alojamiento_bulma.html" alt="Alojamiento">
+                  ALOJAMIENTO
+                </a>
+              </span>
+              </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Descripcionnn-->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-6 is-offset-3">
+          <h1 class="title has-text-warning">
+            TabTasteFly
+          </h1>
+          <h2 class="resaltado subtitle">
+            "Conoce a las personas destrás de la genial página TabTastefly"
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- corte svg -->
+    <img src="./img/cuts/cut-header.svg" alt="">
+  </section>
+
+  <div class="column is-12 has-text-left">
+    <h2 class="title is-5 has-text-warning is-uppercase">Las personas destrás de esto</h2>
+    <hr class="has-background-grey">
+  </div>
+  <!-- SECCION DE TODO EL NAVBAR CON BULMA -->
+  <section class="container">
+    <div class="columns features">
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="img/equipo/dax_peralta.png" alt="Foto de Juan Luis Peralta" class="modal-button"
+                data-target="modal-image2">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Juan Luis Peralta May</h4>
+              <p>Programador.</p>
+              <span class="button is-success modal-button" data-target="modal-image2">Ver foto</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="img/equipo/cristell_k.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Paola Cristell </h4>
+              <p>Administrador del sitio.</p>
+              <span class="button is-success modal-button" data-target="modal-image3">Ver foto</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4 modal-button" data-target="modal-image">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="img/equipo/leonardo_esau.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Leonardo Esau Acosta</h4>
+              <p>Diseñador.</p>
+              <span class="button is-success modal-button" data-target="modal-image">Ver foto</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- footer -->
+    <footer class="has-background-dark has-text-white py-4">
+      <div class="container">
+        <div class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center my-6">
+          <!-- REDES SOCIALES -->
+          <div class="is-flex is-justify-content-center mt-4">
+            <div class="ml-2 is-flex">
+              <a href="index.html">
+                <img src="./img/logotab.png" alt="" class="image is-64x64 mr-2">
+              </a>
+            </div>
+          </div>
+          <div class="is-flex is-align-items-center">
+            <a href="quienes_somos_bulma.html">
+              <h3 class="has-text-weight-bold has-text-uppercase">Quienes somos</h3>
+            </a>
+          </div>
+          <div class="is-flex is-justify-content-center mt-4">
+            <div class="ml-2 is-flex">
+              <a href="#" class="icon has-text-white">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="ml-2 is-flex">
+              <a href="#" class="icon has-text-white">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="ml-2 is-flex">
+              <a href="#" class="icon has-text-white">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  ===============
+    Lo que va dentro del modal
+    ===============  -->
+    <!-- Modal de Imagen -->
+    <div id="modal-image2" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-huge is-image">
+        <!-- contenido -->
+        <img src="img/equipo/dax_peralta.png" alt="Modal Juan Luis">
+        <!-- final contenido -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- Image modal -->
+    <div id="modal-image3" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-huge is-image">
+        <!-- content -->
+        <img src="img/equipo/cristell_k.png" alt="Modal Paola Cristell">
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- Image modal-->
+    <div id="modal-image" class="modal modal-fx-superScaled">
+      <div class="modal-background"></div>
+      <div class="modal-content  is-image">
+        <!-- content -->
+        <img src="img/equipo/leonardo_esau.png" alt="Modal imagen Leornado Acosta">
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+      integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <script src="../js/wild.js"></script>
+</body>
+
+</html>
